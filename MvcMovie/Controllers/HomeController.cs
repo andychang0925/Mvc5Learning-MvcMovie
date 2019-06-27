@@ -15,7 +15,6 @@ namespace MvcMovie.Controllers
 
     public ActionResult About()
     {
-      // git test 2
       ViewBag.Message = "Your application description page.";
 
       return View();
