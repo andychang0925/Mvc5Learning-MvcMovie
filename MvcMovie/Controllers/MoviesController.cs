@@ -134,7 +134,7 @@ namespace MvcMovie.Controllers
 
         // Perform delete data operation
         // POST: Movies/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete")] // To map the Delete action in route
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
