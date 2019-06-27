@@ -12,6 +12,7 @@ namespace MvcMovie.Controllers
 
     public ActionResult Welcome(string name, int numTimes = 1)
     {
+      //git test
       ViewBag.Message = "Hello " + name;
       ViewBag.NumTimes = numTimes;
 
