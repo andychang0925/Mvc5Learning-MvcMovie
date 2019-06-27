@@ -1,3 +1,4 @@
+*.js linguist-language=Asp.net
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
